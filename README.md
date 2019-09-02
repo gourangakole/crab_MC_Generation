@@ -19,7 +19,7 @@ cmsrel CMSSW_10_2_5
 cd CMSSW_10_2_5/src/
 cmsenv
 git@github.com:gourangakole/crab_MC_Generation.git
-cd DIGI-RECO
+cd crab_MC_Generation/DIGI-RECO
 cmsRun config_DIGI102X_step1.py #look at the input GENSIM file 
 cmsRun config_DIGI102X_step2.py #look at the input file that generated in step1
 ```
@@ -35,7 +35,7 @@ cmsrel CMSSW_10_2_5
 cd CMSSW_10_2_5/src/
 cmsenv
 git@github.com:gourangakole/crab_MC_Generation.git
-cd MiniAOD
+cd crab_MC_Generation/MiniAOD
 cmsRun config_MiniAOD.py #look at the input AOD file that is generated in DIGI-RECO step2
 ```
 
@@ -50,7 +50,7 @@ cmsrel CMSSW_10_2_15
 cd CMSSW_10_2_15/src/
 cmsenv
 git@github.com:gourangakole/crab_MC_Generation.git
-cd NanoAODv5
+cd crab_MC_Generation/NanoAODv5
 cmsRun config_NanoAODv5.py #look at the input MINIAOD file that is generated in MiniAOD step
 ```
 
